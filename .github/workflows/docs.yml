@@ -2,7 +2,6 @@ name: Deploy docs
 
 on:
   push:
-    branches: [main]
   workflow_dispatch:
 
 permissions:
@@ -11,7 +10,7 @@ permissions:
   id-token: write
 
 concurrency:
-  group: pages
+  group: pages-${{ github.ref }}
   cancel-in-progress: false
 
 jobs:
@@ -20,39 +19,46 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          fetch-depth: 0   # برای lastUpdated
+          fetch-depth: 0
+
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 10
 
       - uses: actions/setup-node@v4
         with:
-          node-version: 20
-          cache: npm
+          node-version: 22
+          cache: pnpm
           cache-dependency-path: |
-            en/xshop/package-lock.json
-            fa/xshop/package-lock.json
+            en/pnpm-lock.yaml
+            fa/pnpm-lock.yaml
 
       - name: Build EN
-        working-directory: en/xshop
+        working-directory: en
         run: |
-          npm ci
-          npm run docs:build
+          pnpm install --frozen-lockfile
+          pnpm run docs:build
 
       - name: Build FA
-        working-directory: fa/xshop
+        working-directory: fa
         run: |
-          npm ci
-          npm run docs:build
+          pnpm install --frozen-lockfile
+          pnpm run docs:build
 
       - name: Assemble site
         run: |
+          test -f en/xshop/.vitepress/dist/index.html
+          test -f fa/xshop/.vitepress/dist/index.html
           mkdir -p _site/fa
-          cp -r en/xshop/docs/.vitepress/dist/. _site/
-          cp -r fa/xshop/docs/.vitepress/dist/. _site/fa/
+          cp -r en/xshop/.vitepress/dist/. _site/
+          cp -r fa/xshop/.vitepress/dist/. _site/fa/
 
       - uses: actions/upload-pages-artifact@v3
         with:
           path: _site
 
   deploy:
+    if: github.ref == 'refs/heads/main'
     needs: build
     runs-on: ubuntu-latest
     environment:
