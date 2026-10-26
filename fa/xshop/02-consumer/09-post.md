@@ -1,6 +1,6 @@
 # مستندات پنل مدیریت نوشته‌ها (Post)
 
-![post.webp](../images/post.webp)
+![post.webp](../../../images/post.webp)
 
 ## ۱. معرفی
 

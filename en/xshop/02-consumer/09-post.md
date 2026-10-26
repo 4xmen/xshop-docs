@@ -1,6 +1,6 @@
 # Post Management Documentation (Post)
 
-![post.webp](../images/post.webp)
+![post.webp](../../../images/post.webp)
 
 ## 1. Introduction
 

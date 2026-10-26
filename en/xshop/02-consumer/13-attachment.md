@@ -1,6 +1,6 @@
 # Attachment Management
 
-![attachment.webp](../images/attachment.webp)
+![attachment.webp](../../../images/attachment.webp)
 
 The Attachment section is used to upload and manage files that will be displayed on the website, made available for users to download, or linked to different parts of the site, such as posts and products.
 

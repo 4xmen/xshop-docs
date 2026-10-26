@@ -8,7 +8,7 @@ On this page, you can define the category, link it to a parent category, specify
 
 Figure 1 - Overview of the category editing page. The numbers indicate the locations of the form sections.
 
-![category.webp](../images/category.webp)
+![category.webp](../../../images/category.webp)
 
 ## 1. Editing the Category's Main Information
 

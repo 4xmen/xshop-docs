@@ -5,7 +5,7 @@
 The settings management page is used to view, edit, and add settings for different parts of the site. From this page, you can manage existing settings by group, create new settings, save changes, and clear the site's settings and Blade caches.
 
 ## Getting to Know the Page
-![setting-page.webp](../images/setting-page.webp)
+![setting-page.webp](../../../images/setting-page.webp)
 ### 1. Selecting a Settings Section
 
 The **Sections** area displays the different settings sections. To view and edit a section's settings, simply select the section you want.
