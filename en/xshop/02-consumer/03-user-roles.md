@@ -30,4 +30,4 @@ A regular user whose access level is defined by administrators. All permissions 
 
 After creating a user, you can configure their permissions using a form similar to the following:
 
-![acl.png](../../../images/acl.webp)
+![acl.png](./../../../images/acl.webp)

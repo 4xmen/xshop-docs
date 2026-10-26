@@ -6,7 +6,7 @@ This section configures the overall appearance of the theme on the site. It prov
 ::: warning
 It is strongly recommended that you apply Theme changes to a local, non-production version.
 :::
-![gfx.png](../../../images/gfx.webp)
+![gfx.png](./../../../images/gfx.webp)
 
 Descriptions of the different sections:
 

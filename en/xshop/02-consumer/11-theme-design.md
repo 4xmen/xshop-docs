@@ -9,7 +9,7 @@ Despite the recommendation above, these editing features are also available in t
 
 ## Selecting an Area
 
-![theme-list.webp](../../../images/theme-list.webp)
+![theme-list.webp](./../../../images/theme-list.webp)
 
 This section contains all the available sections so you can customize different Areas as needed.
 The list of Areas is displayed here.
@@ -25,7 +25,7 @@ The list of Areas is displayed here.
 - The other sections correspond to different parts of the site.
 
 ## Editing an Area
-![theme-edit.webp](../../../images/theme-edit.webp)
+![theme-edit.webp](./../../../images/theme-edit.webp)
 
 Details for editing an Area:
 

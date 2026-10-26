@@ -20,7 +20,7 @@ Step 4 - Quantities
 Define different product options based on features such as color or storage capacity, along with the quantity and price of each option.
 
 ## Step 1: Basic Product Data
-![product1.webp](../../../images/product1.webp)
+![product1.webp](./../../../images/product1.webp)
 Image reference: Fourth submitted image - Basic Data form
 
 Enter the product's main information in this step. This information is used on the product page, in search and categories, and in SEO-related sections.
@@ -56,7 +56,7 @@ The gray button with a color-palette icon at the top of the form lets you config
 - Use this feature when the selected product needs to be displayed differently from the site's general template.
 
 ## Step 2: Product Media and Images
-![product2.webp](../../../images/product2.webp)
+![product2.webp](./../../../images/product2.webp)
 Image reference: Third submitted image - Medias form
 
 This step is designed for uploading and managing product images. Images can be used in the product gallery and as the featured image.
@@ -75,7 +75,7 @@ This section includes the following features:
 Note: The featured image should show the product clearly and attractively, as it may appear in product listings, on the product details page, and in other sections of the site.
 
 ## Step 3: Additional Data
-![product3.webp](../../../images/product3.webp)
+![product3.webp](./../../../images/product3.webp)
 Image reference: Second submitted image - Additional Data form
 
 This step includes additional product settings, general inventory, categories, specifications, discounts, attachments, and structured data.
@@ -175,7 +175,7 @@ Schema Markup is structured data that helps search engines better understand the
 For information about the editor, supported keywords, buttons for automatically inserting values, Syntax selection, and Reset behavior, refer to the Schema Markup editor documentation.
 
 ## Step 4: Inventory and Quantity Options
-![product4.webp](../../../images/product4.webp)
+![product4.webp](./../../../images/product4.webp)
 Image reference: First submitted image - Quantities form
 
 This step applies to products offered in multiple variations or combinations, such as different colors, storage capacities, or combinations of several features.

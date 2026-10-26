@@ -6,7 +6,7 @@ The Schema Markup editor is used to define and edit structured data. You can use
 
 This editor can be used in different areas of the panel, such as products, posts, and users. **The buttons and variables available in each editor may differ depending on the type of information in that area.**
 
-![Schema Markup editor](../../../images/markup-editor.webp)
+![Schema Markup editor](./../../../images/markup-editor.webp)
 
 *Figure 1 - Example of the Schema Markup editor in the products section. The buttons shown in this image are specific to this example and are not necessarily the same in other areas of the panel.*
 

@@ -9,7 +9,7 @@
 
 ##  انتخاب محیط Area
 
-![theme-list.webp](../../../images/theme-list.webp)
+![theme-list.webp](./../../../images/theme-list.webp)
 
 در این بخش تمامی بخش مورد نظر وجود دارد تا با توجه به آن محیط‌های مختلف را سفارشی سازی کنید.
 فهرست محیط‌ها مشخص است.
@@ -25,7 +25,7 @@
 - سایر بخش ها مربوط به بخش های مختلف است
 
 ## ویرایش یک محیط
-![theme-edit.webp](../../../images/theme-edit.webp)
+![theme-edit.webp](./../../../images/theme-edit.webp)
 
 توضیحات ویرایش یک محیط:
 

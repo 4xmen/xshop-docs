@@ -24,7 +24,7 @@ Therefore, there is no need to design a dedicated form or a separate filter for 
 
 In the **Properties Meta** section, you can create and manage the props required by the store.
 
-![Prop management page](../../../images/props.webp)
+![Prop management page](./../../../images/props.webp)
 
 Each prop includes general information, related categories, settings for its options, and, if needed, an icon.
 
@@ -99,7 +99,7 @@ Enabling this option does not, by itself, create a price or inventory. Informati
 
 The **Categories** section specifies which categories' products can use each prop.
 
-![Selecting categories related to a prop](../../../images/props.webp)
+![Selecting categories related to a prop](./../../../images/props.webp)
 
 For example, the size prop can be linked to the clothing category, and the validity period prop can be linked to the virtual products category.
 
@@ -117,7 +117,7 @@ When creating or editing a product, the system uses the props associated with th
 
 Some props require a set of defined options. In such cases, the options are defined in the section for that prop.
 
-![Managing prop options](../../../images/props.webp)
+![Managing prop options](./../../../images/props.webp)
 
 Each option has two main values:
 
@@ -146,7 +146,7 @@ Choose the prop type based on the store's needs so that its input and filter beh
 
 The **Icon** section is used to select an icon associated with a prop.
 
-![Prop icon selection section](../../../images/props.webp)
+![Prop icon selection section](./../../../images/props.webp)
 
 An icon can help visually identify a prop. For example, you can choose a suitable icon for props related to weight, color, or other specifications.
 
@@ -156,7 +156,7 @@ Whether the icon is displayed in different sections depends on the user interfac
 
 After defining props and linking them to categories, the system makes the relevant props available in the product creation or editing form. This depends on the product's primary category; secondary categories have no effect.
 
-![Example of using props in the product specifications and inventory form](../../../images/prop-usage.webp)
+![Example of using props in the product specifications and inventory form](./../../../images/prop-usage.webp)
 
 This form is generated based on the defined props. Therefore, its layout and input fields depend on the product type and the settings of its related props.
 
@@ -172,7 +172,7 @@ This structure helps manage inventory and price information for different variat
 
 Props with the `Searchable` option enabled can be made available automatically in product filters.
 
-![Example of displaying props in product filters](../../../images/prop-filter.webp)
+![Example of displaying props in product filters](./../../../images/prop-filter.webp)
 
 The prop type determines how its filter is displayed, for example, as a single-option selection, a multiple-option selection, or a toggle.
 
