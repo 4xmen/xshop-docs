@@ -1,0 +1,223 @@
+---
+aside: false
+
+features:
+  - title: Access
+    details: Access levels
+    link: /03-developer/models/access.md
+    linkText: Read the documentation
+
+  - title: Address
+    details: Addresses
+    link: /03-developer/models/address.md
+    linkText: Read the documentation
+
+  - title: AdminLog
+    details: Administrator activity
+    link: /03-developer/models/adminlog.md
+    linkText: Read the documentation
+
+  - title: Adv
+    details: Advertisements
+    link: /03-developer/models/adv.md
+    linkText: Read the documentation
+
+  - title: Area
+    details: Graphical areas
+    link: /03-developer/models/area.md
+    linkText: Read the documentation
+
+  - title: Attachment
+    details: Attachments
+    link: /03-developer/models/attachment.md
+    linkText: Read the documentation
+
+  - title: Category
+    details: Product categories
+    link: /03-developer/models/category.md
+    linkText: Read the documentation
+
+  - title: City
+    details: Cities
+    link: /03-developer/models/city.md
+    linkText: Read the documentation
+
+  - title: Clip
+    details: Video clips
+    link: /03-developer/models/clip.md
+    linkText: Read the documentation
+
+  - title: Comment
+    details: Comments
+    link: /03-developer/models/comment.md
+    linkText: Read the documentation
+
+  - title: Contact
+    details: Contact us
+    link: /03-developer/models/contact.md
+    linkText: Read the documentation
+
+  - title: Creator
+    details: Creator or author
+    link: /03-developer/models/creator.md
+    linkText: Read the documentation
+
+  - title: Customer
+    details: Customers
+    link: /03-developer/models/custmer.md
+    linkText: Read the documentation
+
+  - title: Discount
+    details: Discounts
+    link: /03-developer/models/discount.md
+    linkText: Read the documentation
+
+  - title: Evaluation
+    details: Evaluations
+    link: /03-developer/models/evaluation.md
+    linkText: Read the documentation
+
+  - title: Gfx
+    details: Website graphics
+    link: /03-developer/models/gfx.md
+    linkText: Read the documentation
+
+  - title: Gallery
+    details: Image galleries
+    link: /03-developer/models/gallery.md
+    linkText: Read the documentation
+
+  - title: Group
+    details: Post headings
+    link: /03-developer/models/group.md
+    linkText: Read the documentation
+
+  - title: GuestLog
+    details: Guest activity
+    link: /03-developer/models/guestlog.md
+    linkText: Read the documentation
+
+  - title: Image
+    details: Gallery image
+    link: /03-developer/models/image.md
+    linkText: Read the documentation
+
+  - title: Invoice
+    details: Invoices
+    link: /03-developer/models/invoice.md
+    linkText: Read the documentation
+
+  - title: Item
+    details: Menu item
+    link: /03-developer/models/item.md
+    linkText: Read the documentation
+
+  - title: Menu
+    details: Menu | Navigation
+    link: /03-developer/models/menu.md
+    linkText: Read the documentation
+
+  - title: Order
+    details: Order
+    link: /03-developer/models/order.md
+    linkText: Read the documentation
+
+  - title: Part
+    details: Template part
+    link: /03-developer/models/part.md
+    linkText: Read the documentation
+
+  - title: Payment
+    details: Payment
+    link: /03-developer/models/payment.md
+    linkText: Read the documentation
+
+  - title: Post
+    details: Post
+    link: /03-developer/models/post.md
+    linkText: Read the documentation
+
+  - title: Product
+    details: Product
+    link: /03-developer/models/product.md
+    linkText: Read the documentation
+
+  - title: Prop
+    details: Meta property
+    link: /03-developer/models/prop.md
+    linkText: Read the documentation
+
+  - title: Quantity
+    details: Inventory
+    link: /03-developer/models/quantity.md
+    linkText: Read the documentation
+
+  - title: Question
+    details: Questions
+    link: /03-developer/models/question.md
+    linkText: Read the documentation
+
+  - title: Rate
+    details: Ratings
+    link: /03-developer/models/rate.md
+    linkText: Read the documentation
+
+  - title: Redirect
+    details: Redirects
+    link: /03-developer/models/redirect.md
+    linkText: Read the documentation
+
+  - title: Setting
+    details: Settings
+    link: /03-developer/models/setting.md
+    linkText: Read the documentation
+
+  - title: Slider
+    details: Slider
+    link: /03-developer/models/slider.md
+    linkText: Read the documentation
+
+  - title: SMS
+    details: SMS
+    link: /03-developer/models/sms.md
+    linkText: Read the documentation
+
+  - title: State
+    details: States
+    link: /03-developer/models/state.md
+    linkText: Read the documentation
+
+  - title: Story
+    details: Stories
+    link: /03-developer/models/story.md
+    linkText: Read the documentation
+
+  - title: Ticket
+    details: Support
+    link: /03-developer/models/ticket.md
+    linkText: Read the documentation
+
+  - title: Transport
+    details: Shipping method
+    link: /03-developer/models/transport.md
+    linkText: Read the documentation
+
+  - title: User
+    details: Users | Administrators
+    link: /03-developer/models/user.md
+    linkText: Read the documentation
+
+  - title: Visitor
+    details: Visitor
+    link: /03-developer/models/visitor.md
+    linkText: Read the documentation
+
+  - title: XLang
+    details: Languages
+    link: /03-developer/models/xlang.md
+    linkText: Read the documentation
+---
+
+# Models
+
+To learn about the project's models, select the relevant section.

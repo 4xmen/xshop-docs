@@ -1,0 +1,11 @@
+{
+  "devDependencies": {
+    "vitepress": "2.0.0-alpha.20",
+    "vitepress-sidebar": "^1.40.0"
+  },
+  "scripts": {
+    "dev": "vitepress dev xshop",
+    "build": "vitepress build xshop",
+    "preview": "vitepress preview xshop"
+  }
+}

@@ -1,0 +1,34 @@
+---
+# https://vitepress.dev/reference/default-theme-home-page
+layout: home
+
+hero:
+  name: "xShop v3"
+  text: "xShop developer & consumer document"
+  tagline: Very customizable and easy to use shopping system, open source project based on laravel
+  actions:
+    - theme: brand
+      text: Getting started
+      link: /01-getting-started
+    - theme: alt
+      text: Consumer document
+      link: /02-consumer
+    - theme: alt
+      text: Developer document
+      link: /03-developer
+
+features:
+  - title: Agile, Rapid Development
+    details: Built-in command-line tools and sensible defaults help you develop much faster.
+  - title: Highly Flexible
+    details: Almost every feature can be customized. This isn't just a slogan—it's true.
+  - title: Open Source Forever
+    details: Licensed under the GPL, this project will remain open source.
+  - title: Easy Migration from WordPress
+    details: A migration tool is included to help you move your WordPress site.
+  - title: Powerful SEO
+    details: Almost everything you need for SEO is built in. Don't worry about your SEO at all.
+  - title: Easy Multilingual Support
+    details: The system is designed for multiple languages, with built-in support for all languages—including right-to-left (RTL) languages.
+---
+

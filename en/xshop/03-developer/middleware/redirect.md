@@ -1,0 +1,13 @@
+# RedirectMiddleware
+
+This Middleware manages URL redirects in the website's visitor-facing sections. Its purpose is to direct requests to a designated destination when a page's URL has changed, the page has been removed, or users need to be transferred from an old URL to a new one. Users specify the source and destination URLs through the redirect management system, and the Middleware uses the information stored in the `redirects` table to determine whether a redirect is needed.
+
+For each request, the Middleware first checks that the route is not associated with the admin panel. Requests whose route names include `admin` bypass this mechanism and proceed to the next stage of processing without a redirect check. As a result, this Middleware is intended to manage redirects for the public sections of the website, and the redirects defined in it are not applied to admin panel requests.
+
+For other requests, the current page path is extracted without its Query String parameters, and the `redirects` table is searched for a record with a matching source URL. Only redirects that are active and either have no expiration date or have not yet expired can be used. If a valid redirect exists for the requested path, the user is redirected to the destination URL with the HTTP `301 Moved Permanently` response. This status code indicates that the URL has been moved permanently and can help search engines recognize the new URL as a replacement for the old one.
+
+To reduce repeated database queries, the redirect lookup result is stored in Cache. The cache key is based on the source path, and its lifetime is 300 seconds, or five minutes. Subsequent requests for the same path can therefore use the cached result until it expires, without querying the `redirects` table again on every visit. This approach reduces database overhead, but it also means that changes to redirect settings may not be reflected in request results until the cache expires.
+
+If no active redirect is found for the requested path, or no valid destination is returned by the lookup, the Middleware passes the request to the next stage of processing unchanged. Thus, the presence of this Middleware does not interfere with normal access to pages that do not need to be redirected.
+
+Overall, `RedirectMiddleware` provides centralized management of permanent website redirects. Users are responsible for defining and managing the source and destination URLs, while the Middleware applies each redirect when a request is made by checking its active status, expiration date, and destination. Caching also reduces the number of database queries required by this process and improves website performance under frequent requests.
