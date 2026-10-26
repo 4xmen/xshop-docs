@@ -2,7 +2,7 @@
 
 This component is used to select latitude and longitude on a map:
 
-![location-picker.png](../../images/location-picker.webp)
+![location-picker.png](https://raw.githubusercontent.com/4xmen/xshop-docs/refs/heads/master/images/location-picker.webp)
 
 ## How to use
 

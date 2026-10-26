@@ -1,6 +1,6 @@
 # Attachment - Managing Attachments
 
-![attachment.webp](../../images/attachment.webp)
+![attachment.webp](https://raw.githubusercontent.com/4xmen/xshop-docs/refs/heads/master/images/attachment.webp)
 
 The Attachment section is used to upload and manage files intended to be displayed in site content, made available for users to download, or attached to different parts of the site, such as posts and products.
 

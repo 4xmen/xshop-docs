@@ -2,7 +2,7 @@
 
 انتخابگر select یا combobox با قابلیت جستجو است
 
-![searchable-select.png](../../images/searchable-select.webp)
+![searchable-select.png](https://raw.githubusercontent.com/4xmen/xshop-docs/refs/heads/master/images/searchable-select.webp)
 
 ## How to use
 

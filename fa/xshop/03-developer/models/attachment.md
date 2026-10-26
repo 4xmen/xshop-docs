@@ -1,6 +1,6 @@
 # Attachment — مدیریت پیوست‌ها
 
-![attachment.webp](../../images/attachment.webp)
+![attachment.webp](https://raw.githubusercontent.com/4xmen/xshop-docs/refs/heads/master/images/attachment.webp)
 
 بخش Attachment برای بارگذاری و مدیریت فایل‌هایی استفاده می‌شود که قرار است در محتوای سایت نمایش داده شوند، برای دانلود در اختیار کاربران قرار بگیرند یا به بخش‌های مختلف سایت مانند نوشته‌ها و محصولات متصل شوند.
 

@@ -3,7 +3,7 @@
 کاپوننت انتخاب آدرس به شما اجازه میدهد آدرس مورد نظر خود را به راحتی انتخاب کنید
 مقادیر پیش شهر و استان از طریق state, city با طول و عرض جغرافیایی قابل تعریف است.
 
-![address-input.png](../../images/address-input.webp)
+![address-input.png](https://raw.githubusercontent.com/4xmen/xshop-docs/refs/heads/master/images/address-input.webp)
 
 ## How to use
 

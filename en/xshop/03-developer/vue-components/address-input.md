@@ -3,7 +3,7 @@
 The address selection component lets you easily select the address you want.
 The default province and city values can be defined through `state` and `city`, along with latitude and longitude.
 
-![address-input.png](../../images/address-input.webp)
+![address-input.png](https://raw.githubusercontent.com/4xmen/xshop-docs/refs/heads/master/images/address-input.webp)
 
 ## How to use
 

@@ -2,9 +2,9 @@
 
 این کامپوننت برای انتخاب تاریخ یا تاریخ و زمان است. که هم زمان هم تاریخ میلادی و شمسی را پشتیبانی می‌کند.
 
-![datepicker.png](../../images/datepicker.webp)
-![datepicker-persian.png](../../images/datepicker-persian.webp)
-![datetime-time.png](../../images/datetime-time.webp)
+![datepicker.png](https://raw.githubusercontent.com/4xmen/xshop-docs/refs/heads/master/images/datepicker.webp)
+![datepicker-persian.png](https://raw.githubusercontent.com/4xmen/xshop-docs/refs/heads/master/images/datepicker-persian.webp)
+![datetime-time.png](https://raw.githubusercontent.com/4xmen/xshop-docs/refs/heads/master/images/datetime-time.webp)
 
 ## How to use
 

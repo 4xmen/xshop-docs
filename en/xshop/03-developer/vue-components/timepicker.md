@@ -2,7 +2,7 @@
 
 The time picker component is used to select a time only.
 
-![timepicker.png](../../images/timepicker.webp)
+![timepicker.png](https://raw.githubusercontent.com/4xmen/xshop-docs/refs/heads/master/images/timepicker.webp)
 
 ## How to use
 

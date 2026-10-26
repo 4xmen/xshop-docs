@@ -2,7 +2,7 @@
 
 This component is used to enter numbers with digit grouping.
 
-![currency-input.png](../../images/currency-input.webp)
+![currency-input.png](https://raw.githubusercontent.com/4xmen/xshop-docs/refs/heads/master/images/currency-input.webp)
 
 ## How to use
 

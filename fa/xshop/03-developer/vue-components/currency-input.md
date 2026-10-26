@@ -2,7 +2,7 @@
 
 این کامپوننت برای ورود اعداد با امکان گروه‌بندی اعداد به کار می‌رود.
 
-![currency-input.png](../../images/currency-input.webp)
+![currency-input.png](https://raw.githubusercontent.com/4xmen/xshop-docs/refs/heads/master/images/currency-input.webp)
 
 ## How to use
 

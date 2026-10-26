@@ -2,7 +2,7 @@
 
 این کامپوننت برای انتخاب بازه تاریخی است. که همزمان هم تاریخ میلادی و شمسی را پشتیبانی می‌کند.
 
-![range-picker.png](../../images/range-picker.webp)
+![range-picker.png](https://raw.githubusercontent.com/4xmen/xshop-docs/refs/heads/master/images/range-picker.webp)
 
 ## How to use
 

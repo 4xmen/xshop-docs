@@ -2,7 +2,7 @@
 
 این کامپوننت برای پیوست کردن سریع به کار می‌رود به طوری که در صفحه مدل مورد نظر استفاده می‌کند و به صورت ajax آپلود می‌کند:
 
-![fast-attachment.png](../../images/fast-attachment.webp)
+![fast-attachment.png](https://raw.githubusercontent.com/4xmen/xshop-docs/refs/heads/master/images/fast-attachment.webp)
 
 ## How to use
 

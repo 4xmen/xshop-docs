@@ -2,7 +2,7 @@
 
 This component is used to select a date range. It supports both Gregorian and Jalali dates.
 
-![range-picker.png](../../images/range-picker.webp)
+![range-picker.png](https://raw.githubusercontent.com/4xmen/xshop-docs/refs/heads/master/images/range-picker.webp)
 
 ## How to use
 

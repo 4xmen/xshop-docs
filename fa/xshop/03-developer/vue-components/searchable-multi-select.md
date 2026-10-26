@@ -2,8 +2,8 @@
 
 برای انتخاب چند گانه همراه با سرچ:
 
-![searchable-multi-select2.png](../../images/searchable-multi-select2.webp)
-![searchable-multi-select.png](../../images/searchable-multi-select.webp)
+![searchable-multi-select2.png](https://raw.githubusercontent.com/4xmen/xshop-docs/refs/heads/master/images/searchable-multi-select2.webp)
+![searchable-multi-select.png](https://raw.githubusercontent.com/4xmen/xshop-docs/refs/heads/master/images/searchable-multi-select.webp)
 
 ## How to use
 

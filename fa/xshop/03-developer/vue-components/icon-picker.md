@@ -6,7 +6,7 @@
 
 نحوه نمایش و استفاده هر دو یک شکل است:
 
-![icon-picker.png](../../images/icon-picker.webp)
+![icon-picker.png](https://raw.githubusercontent.com/4xmen/xshop-docs/refs/heads/master/images/icon-picker.webp)
 
 ## How to use
 

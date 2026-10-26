@@ -2,7 +2,7 @@
 
 کار این کامپوننت انتخاب طول و عرض جغرافیایی با استفاده از نقشه است:
 
-![location-picker.png](../../images/location-picker.webp)
+![location-picker.png](https://raw.githubusercontent.com/4xmen/xshop-docs/refs/heads/master/images/location-picker.webp)
 
 ## How to use
 

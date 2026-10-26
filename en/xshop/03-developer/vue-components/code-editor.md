@@ -9,7 +9,7 @@ The default languages supported by this component are:
 - js
 - css
 
-![code-editor.png](../../images/code-editor.webp)
+![code-editor.png](https://raw.githubusercontent.com/4xmen/xshop-docs/refs/heads/master/images/code-editor.webp)
 
 ## How to use
 

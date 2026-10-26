@@ -1,6 +1,6 @@
 # Tag input
 یک کامپوننت برای انتخاب تگ هست
-![tag-input.png](../../images/tag-input.webp)
+![tag-input.png](https://raw.githubusercontent.com/4xmen/xshop-docs/refs/heads/master/images/tag-input.webp)
 ## How to use:
 
 ```vue

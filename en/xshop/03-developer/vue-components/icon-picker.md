@@ -7,7 +7,7 @@ The system has two types of icon pickers: Awesome and Remix Icon:
 
 Both are displayed and used in the same way:
 
-![icon-picker.png](../../images/icon-picker.webp)
+![icon-picker.png](https://raw.githubusercontent.com/4xmen/xshop-docs/refs/heads/master/images/icon-picker.webp)
 
 ## How to use
 

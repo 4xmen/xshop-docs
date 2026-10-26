@@ -2,7 +2,7 @@
 
 کامپوننت انتخاب زمان برای فقط انتخاب زمان کاربرد دارد.
 
-![timepicker.png](../../images/timepicker.webp)
+![timepicker.png](https://raw.githubusercontent.com/4xmen/xshop-docs/refs/heads/master/images/timepicker.webp)
 
 ## How to use
 

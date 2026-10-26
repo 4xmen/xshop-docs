@@ -1,7 +1,7 @@
 # Increment input
 این کامپوننت برای انتخاب اعداد با قابلیت افزایش یا کاهش به کار می‌رود
 
-![incerment.png](../../images/incerment.webp)
+![incerment.png](https://raw.githubusercontent.com/4xmen/xshop-docs/refs/heads/master/images/incerment.webp)
 
 ## How to use
 

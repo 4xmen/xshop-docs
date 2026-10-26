@@ -2,7 +2,7 @@
 
 This component is used to attach files quickly. It is used on the page for the relevant model and uploads files via AJAX:
 
-![fast-attachment.png](../../images/fast-attachment.webp)
+![fast-attachment.png](https://raw.githubusercontent.com/4xmen/xshop-docs/refs/heads/master/images/fast-attachment.webp)
 
 ## How to use
 

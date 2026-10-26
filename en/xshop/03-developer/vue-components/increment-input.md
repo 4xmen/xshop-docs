@@ -2,7 +2,7 @@
 
 This component is used to select numbers with the option to increase or decrease them.
 
-![incerment.png](../../images/incerment.webp)
+![incerment.png](https://raw.githubusercontent.com/4xmen/xshop-docs/refs/heads/master/images/incerment.webp)
 
 ## How to use
 
