@@ -37,13 +37,13 @@ jobs:
         working-directory: en
         run: |
           pnpm install --frozen-lockfile
-          pnpm run docs:build
+          pnpm run build
 
       - name: Build FA
         working-directory: fa
         run: |
           pnpm install --frozen-lockfile
-          pnpm run docs:build
+          pnpm run build
 
       - name: Assemble site
         run: |
