@@ -1,6 +1,6 @@
 # Post Management Documentation (Post)
 
-![post.webp](./../../../images/post.webp)
+![post.webp](https://raw.githubusercontent.com/4xmen/xshop-docs/refs/heads/master/images/post.webp)
 
 ## 1. Introduction
 

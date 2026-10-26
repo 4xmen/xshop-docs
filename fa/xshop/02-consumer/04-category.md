@@ -8,7 +8,7 @@
 
 تصویر ۱ ـ نمای کلی صفحه‌ی ویرایش دسته‌بندی. شماره‌ها محل بخش‌های مختلف فرم را مشخص می‌کنند.
 
-![category.webp](./../../../images/category.webp)
+![category.webp](https://raw.githubusercontent.com/4xmen/xshop-docs/refs/heads/master/images/category.webp)
 
 ## ۱. ویرایش اطلاعات اصلی دسته‌بندی
 

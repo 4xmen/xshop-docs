@@ -6,7 +6,7 @@
 ::: warning
  شدیدا توصیه می‌شود تغییرات Theme بر روی نسخه local و غیر production اعمال شود.
 ::: 
-![gfx.png](./../../../images/gfx.webp)
+![gfx.png](https://raw.githubusercontent.com/4xmen/xshop-docs/refs/heads/master/images/gfx.webp)
 
 توضیحات بخش های مختلف:
 

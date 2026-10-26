@@ -1,6 +1,6 @@
 # مستندات پنل مدیریت نوشته‌ها (Post)
 
-![post.webp](./../../../images/post.webp)
+![post.webp](https://raw.githubusercontent.com/4xmen/xshop-docs/refs/heads/master/images/post.webp)
 
 ## ۱. معرفی
 

@@ -29,4 +29,4 @@
 پس از این که کاربر تعریف شد فرمی شبیه زیر دسترسی های آن را می‌توانید مشخص کنید:
 
 
-![acl.png](./../../../images/acl.webp)
+![acl.png](https://raw.githubusercontent.com/4xmen/xshop-docs/refs/heads/master/images/acl.webp)
