@@ -129,3 +129,10 @@
   --vp-custom-block-tip-code-bg: var(--vp-c-brand-soft);
 }
 
+.content,.VPSidebarItem ul.items, .VPDocOutlineItem{
+  direction: rtl ;
+}
+
+code{
+  direction: ltr ;
+}

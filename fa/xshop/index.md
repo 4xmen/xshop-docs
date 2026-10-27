@@ -9,7 +9,7 @@ hero:
   actions:
     - theme: brand
       text: Getting started
-      link: /dev
+      link: /01-getting-started
     - theme: alt
       text: Consumer document
       link: /02-consumer
@@ -18,17 +18,17 @@ hero:
       link: /03-developer
 
 features:
-  - title: Agile, Rapid Development
-    details: Built-in command-line tools and sensible defaults help you develop much faster.
-  - title: Highly Flexible
-    details: Almost every feature can be customized. This isn’t just a slogan—it’s true.
-  - title: Open Source Forever
-    details: Licensed under the GPL, this project will remain open source.
-  - title: Easy Migration from WordPress
-    details: A migration tool is included to help you move your WordPress site.
-  - title: Powerful SEO
-    details: Almost everything you need for SEO is built in. Don't worry about your SEO at all.
-  - title: Easy Multilingual Support
-    details: The system is designed for multiple languages, with built-in support for all languages—including right-to-left (RTL) languages.
+  - title: توسعه چابک و سریع
+    details: ابزارهای خط فرمان درونی و تنظیمات معقول به شما کمک می‌کنند بسیار سریع‌تر توسعه دهید.
+  - title: بسیار انعطاف‌پذیر
+    details: تقریباً هر ویژگی را می‌توان سفارشی کرد. این فقط یک شعار نیست—این واقعی است.
+  - title: متن‌باز برای همیشه
+    details: تحت مجوز GPL منتشر شده، این پروژه برای همیشه متن‌باز باقی خواهد ماند.
+  - title: مهاجرت آسان از وردپرس
+    details: یک ابزار مهاجرت گنجانده شده است تا به شما کمک کند سایت وردپرس خود را منتقل کنید.
+  - title: سئو قدرتمند
+    details: تقریباً هر چیزی که برای سئو نیاز دارید درون‌ریز است. اصلاً نگران سئو خود نباشید.
+  - title: پشتیبانی چندزبانی آسان
+    details: سیستم برای چندین زبان طراحی شده است، با پشتیبانی درون‌ریز برای تمام زبان‌ها—شامل زبان‌های راست‌به‌چپ (RTL).
 ---
 
