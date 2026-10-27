@@ -5,7 +5,7 @@
 
 ![address-input.png](https://raw.githubusercontent.com/4xmen/xshop-docs/refs/heads/master/images/address-input.webp)
 
-## How to use
+## چگونگی استفاده 
 
 ```vue
  <address-input

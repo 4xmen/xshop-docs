@@ -5,16 +5,17 @@ layout: home
 hero:
   name: "xShop v3"
   text: "xShop developer & consumer document"
-  tagline: Very customizable and easy to use shopping system, open source project based on laravel
+  tagline: سیستم فروشگاهی متن‌باز، بسیار قابل‌سفارشی‌سازی و آسان برای استفاده که بر پایهٔ Laravel ساخته شده است.
+
   actions:
     - theme: brand
-      text: Getting started
+      text: شروع کار
       link: /01-getting-started
     - theme: alt
-      text: Consumer document
+      text: مستندات کاربر
       link: /02-consumer
     - theme: alt
-      text: Developer document
+      text: مستندات توسعه دهنده
       link: /03-developer
 
 features:

@@ -11,7 +11,7 @@
 
 ![code-editor.png](https://raw.githubusercontent.com/4xmen/xshop-docs/refs/heads/master/images/code-editor.webp)
 
-## How to use
+## چگونگی استفاده
 
 ```vue
  <code-editor

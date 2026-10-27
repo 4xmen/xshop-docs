@@ -4,7 +4,7 @@
 
 ![timepicker.png](https://raw.githubusercontent.com/4xmen/xshop-docs/refs/heads/master/images/timepicker.webp)
 
-## How to use
+## چگونگی استفاده
 
 ```vue
     <vue-time-picker :am-pm="false"

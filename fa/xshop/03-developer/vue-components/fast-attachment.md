@@ -4,7 +4,7 @@
 
 ![fast-attachment.png](https://raw.githubusercontent.com/4xmen/xshop-docs/refs/heads/master/images/fast-attachment.webp)
 
-## How to use
+## چگونگی استفاده
 
 ```vue
 <fast-attaching

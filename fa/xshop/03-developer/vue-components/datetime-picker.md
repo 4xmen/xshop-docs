@@ -6,7 +6,7 @@
 ![datepicker-persian.png](https://raw.githubusercontent.com/4xmen/xshop-docs/refs/heads/master/images/datepicker-persian.webp)
 ![datetime-time.png](https://raw.githubusercontent.com/4xmen/xshop-docs/refs/heads/master/images/datetime-time.webp)
 
-## How to use
+## چگونگی استفاده
 
 ```vue
 <vue-datetime-picker-input

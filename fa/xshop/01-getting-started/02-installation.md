@@ -1,41 +1,41 @@
-# Getting Started with xShop
+# شروع کار با xShop
 
-xShop is an open-source store built with Laravel. Choose the setup that matches what you want to do:
+xShop یک فروشگاه متن‌باز است که با Laravel ساخته شده. بسته به هدفتان، یکی از روش‌های راه‌اندازی زیر را انتخاب کنید:
 
-- **Development Mode:** For developers who want to work on xShop’s code, including the frontend.
-- **Use Mode:** For users who want to install and run xShop without starting the frontend development server.
+- **حالت توسعه:** برای توسعه‌دهندگانی که می‌خواهند روی کد xShop، از جمله فرانت‌اند، کار کنند.
+- **حالت استفاده:** برای کسانی که می‌خواهند xShop را نصب و اجرا کنند، بدون اینکه سرور توسعهٔ فرانت‌اند را راه‌اندازی کنند.
 
-## Prerequisites
+## پیش‌نیازها
 
-- PHP 8.3 or later, with the `gd`, `sqlite3`, and `soap` extensions
-- MySQL, MariaDB, or SQLite
+- PHP نسخهٔ 8.4 یا بالاتر، همراه با افزونه‌های `gd`، `sqlite3` و `soap`
+- MySQL، MariaDB یا SQLite
 - [Composer](https://getcomposer.org/)
-- [Node.js](https://nodejs.org/) and [pnpm](https://pnpm.io/) to install frontend dependencies and build the production assets
+- [Node.js](https://nodejs.org/) و [pnpm](https://pnpm.io/) برای نصب وابستگی‌های فرانت‌اند و ساخت فایل‌های نهایی
 
-> Installing ImageMagick is recommended for better image-processing performance.
+> نصب ImageMagick برای پردازش سریع‌تر تصاویر پیشنهاد می‌شود.
 
-## Development Mode
+## حالت توسعه
 
-Choose this mode if you want to modify the project code and run the frontend development server.
+اگر می‌خواهید کد پروژه را تغییر دهید و سرور توسعهٔ فرانت‌اند را اجرا کنید، این روش را انتخاب کنید.
 
-### 1. Clone the repository
+### ۱. مخزن را کلون کنید
 
 ```bash
 git clone https://github.com/4xmen/xshop.git
 cd xshop
 ```
 
-### 2. Configure the environment and database
+### ۲. محیط و پایگاه داده را پیکربندی کنید
 
-Copy the example environment file:
+فایل نمونهٔ محیط را کپی کنید:
 
 ```bash
 cp .env.example .env
 ```
 
-Open `.env` and configure your database connection. Create an empty database before running the next commands.
+فایل `.env` را باز کنید و اتصال پایگاه داده را پیکربندی کنید. پیش از اجرای دستورهای بعدی، یک پایگاه دادهٔ خالی بسازید.
 
-### 3. Install dependencies and prepare Laravel
+### ۳. وابستگی‌ها را نصب و Laravel را آماده کنید
 
 ```bash
 composer install
@@ -44,74 +44,74 @@ php artisan migrate:fresh --seed
 php artisan storage:link
 ```
 
-> **Warning:** `migrate:fresh` drops all tables in the selected database and recreates them. Do not run it against a database containing data you want to keep.
+> **هشدار:** دستور `migrate:fresh` همهٔ جدول‌های پایگاه دادهٔ انتخاب‌شده را حذف و دوباره ایجاد می‌کند. آن را روی پایگاه داده‌ای که اطلاعاتش را می‌خواهید نگه دارید اجرا نکنید.
 
-### 4. Install frontend dependencies
+### ۴. وابستگی‌های فرانت‌اند را نصب کنید
 
 ```bash
 pnpm install
 ```
 
-If pnpm asks you to approve build scripts, run the following command and approve the required packages:
+اگر pnpm خواست اسکریپت‌های ساخت را تأیید کنید، دستور زیر را اجرا کنید و بسته‌های موردنیاز را تأیید کنید:
 
 ```bash
 pnpm approve-builds
 ```
 
-If prompted, approve `esbuild` and `@parcel/watcher`.
+در صورت نمایش درخواست، `esbuild` و `@parcel/watcher` را تأیید کنید.
 
-### 5. Run the project
+### ۵. پروژه را اجرا کنید
 
-In the first terminal, start the Laravel server:
+در ترمینال اول، سرور Laravel را اجرا کنید:
 
 ```bash
 php artisan serve
 ```
 
-In a second terminal, prepare the client and start the frontend development server:
+در ترمینال دوم، کلاینت را آماده و سرور توسعهٔ فرانت‌اند را اجرا کنید:
 
 ```bash
 php artisan client
 pnpm dev
 ```
 
-Open the local URL shown in the Laravel terminal.
+نشانی محلی‌ای را که در ترمینال Laravel نمایش داده می‌شود باز کنید.
 
-### Windows note
+### نکتهٔ ویندوز
 
-If dependency installation fails with a Rollup-related error, run:
+اگر نصب وابستگی‌ها با خطای مربوط به Rollup مواجه شد، دستور زیر را اجرا کنید:
 
 ```bash
 pnpm install @rollup/rollup-win32-x64-msvc
 ```
 
-## Use Mode
+## حالت استفاده
 
-Choose this mode if you want to install and use xShop without developing the frontend. This setup builds the frontend assets, so you do not need to run `pnpm dev`.
+اگر می‌خواهید xShop را نصب و استفاده کنید، بدون اینکه فرانت‌اند را توسعه دهید، این روش را انتخاب کنید. در این روش فایل‌های فرانت‌اند ساخته می‌شوند و نیازی به اجرای `pnpm dev` ندارید.
 
-### 1. Clone the repository
+### ۱. مخزن را کلون کنید
 
 ```bash
 git clone https://github.com/4xmen/xshop.git
 cd xshop
 ```
 
-### 2. Configure the environment and database
+### ۲. محیط و پایگاه داده را پیکربندی کنید
 
 ```bash
 cp .env.example .env
 ```
 
-Open `.env` and configure the database connection and application URL. Then create an empty database & change `APP_ENV` to `production`.
+فایل `.env` را باز کنید و اتصال پایگاه داده و نشانی برنامه را پیکربندی کنید. سپس یک پایگاه دادهٔ خالی بسازید و مقدار `APP_ENV` را به `production` تغییر دهید.
 
-### 3. Install PHP dependencies
+### ۳. وابستگی‌های PHP را نصب کنید
 
 ```bash
 composer install --no-dev --optimize-autoloader
 php artisan key:generate
 ```
 
-### 4. Install dependencies and build the frontend assets
+### ۴. وابستگی‌ها را نصب و فایل‌های فرانت‌اند را بسازید
 
 ```bash
 pnpm install
@@ -119,42 +119,81 @@ php artisan client
 pnpm build
 ```
 
-This builds the frontend assets for use. You do not need to run `pnpm dev`.
+این دستور فایل‌های فرانت‌اند موردنیاز را می‌سازد. نیازی به اجرای `pnpm dev` ندارید.
 
-### 5. Run migrations and prepare storage
+### ۵. مهاجرت‌ها را اجرا و فضای ذخیره‌سازی را آماده کنید
 
 ```bash
 php artisan migrate --seed
 php artisan storage:link
 ```
 
-> If you are installing on a database that already contains data, do not use `migrate:fresh`; it deletes the existing tables and their data.
+> اگر xShop را روی پایگاه داده‌ای نصب می‌کنید که از قبل اطلاعات دارد، از `migrate:fresh` استفاده نکنید؛ این دستور جدول‌های موجود و اطلاعاتشان را حذف می‌کند.
 
-### 6. Configure the production server
+### ۶. سرور تولید را پیکربندی کنید
 
-For a production environment, review your `.env` settings and disable debug mode:
+برای محیط تولید، تنظیمات `.env` را بررسی و حالت اشکال‌زدایی را غیرفعال کنید:
 
 ```env
 APP_ENV=production
 APP_DEBUG=false
 ```
 
-Then cache and optimize the Laravel application:
+سپس برنامهٔ Laravel را کش و بهینه‌سازی کنید:
 
 ```bash
 php artisan optimize
 ```
 
-Configure your web server so the site’s document root points to the project’s `public` directory.
+وب‌سرور را طوری پیکربندی کنید که ریشهٔ اسناد سایت به پوشهٔ `public` پروژه اشاره کند.
 
-## Admin Login
+### ۷. پیکربندی امنیتی Nginx برای محیط تولید
 
-For installations populated with the seed data, the default login credentials listed in the project README are:
+اگر از Nginx استفاده می‌کنید، توصیه می‌شود پس از نصب، قوانین زیر را به بلوک سرور دامنه اضافه کنید تا از اجرای PHP در `public/storage` و `public/upload` جلوگیری شود.
+
+```text
+# جلوگیری از اجرای PHP در public/storage
+location ~* ^/storage/.*\.(php[0-9]*|phtml|phar)$ {
+return 403;
+}
+
+# جلوگیری از اجرای PHP در public/upload
+location ~* ^/upload/.*\.(php[0-9]*|phtml|phar)$ {
+return 403;
+}
+```
+
+پس از ذخیرهٔ تغییرات، پیکربندی را اعتبارسنجی و Nginx را بارگذاری مجدد کنید:
+
+```bash
+sudo nginx -t && sudo systemctl reload nginx
+```
 
 
-| Role      | Email                   | Password   |
-| --------- | ----------------------- | ---------- |
-| Developer | `developer@example.com` | `password` |
-| Admin     | `admin@example.com`     | `password` |
 
-> Change the default password after logging in, especially if the application is accessible from the public internet.
+### 9. افزودن وظیفهٔ زمان‌بندی‌شده (Cron Job)  
+
+برای پروژه‌تان یک ورودی crontab اضافه کنید:
+
+```bash
+crontab -e
+```
+
+این خط را اضافه کنید:
+
+```bash
+* * * * * cd /home/[نام‌کاربری‌شما]/[مسیر-ریشهٔ-پروژه-در-public_html] && php artisan schedule:run >> /dev/null 2>&1
+```
+
+## ورود مدیر
+
+برای نصب‌هایی که با داده‌های seed پر شده‌اند، اطلاعات ورود پیش‌فرضی که در README پروژه آمده است:
+
+| نقش | ایمیل | گذرواژه |
+|---|---|---|
+| توسعه‌دهنده | `developer@example.com` | `password` |
+| مدیر | `admin@example.com` | `password` |
+
+::: warning
+ پس از ورود، گذرواژهٔ پیش‌فرض را تغییر دهید؛ به‌ویژه اگر برنامه از طریق اینترنت عمومی در دسترس است.
+:::

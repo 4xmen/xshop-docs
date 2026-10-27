@@ -4,7 +4,7 @@
 
 ![range-picker.png](https://raw.githubusercontent.com/4xmen/xshop-docs/refs/heads/master/images/range-picker.webp)
 
-## How to use
+## چگونگی استفاده
 
 ```vue
 <vue-date-range-picker-input

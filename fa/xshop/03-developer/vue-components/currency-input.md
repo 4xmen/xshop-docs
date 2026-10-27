@@ -4,7 +4,7 @@
 
 ![currency-input.png](https://raw.githubusercontent.com/4xmen/xshop-docs/refs/heads/master/images/currency-input.webp)
 
-## How to use
+## چگونگی استفاده
 
 ```vue
 <div class="col-lg-4 mt-3">

@@ -8,7 +8,7 @@
 
 ![icon-picker.png](https://raw.githubusercontent.com/4xmen/xshop-docs/refs/heads/master/images/icon-picker.webp)
 
-## How to use
+## چگونگی استفاده
 
 ```vue
  <remix-icon-picker xname="icon"

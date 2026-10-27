@@ -4,7 +4,7 @@
 
 ![searchable-select.png](https://raw.githubusercontent.com/4xmen/xshop-docs/refs/heads/master/images/searchable-select.webp)
 
-## How to use
+## چگونگی استفاده
 
 ```vue
 <searchable-select

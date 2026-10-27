@@ -2,21 +2,21 @@
 aside: false
 
 features:
-  - title: What is xShop
-    details: What our system
+  - title: xshop چیست
+    details: این سامانه چیست
     link: /01-getting-started/01-what-is-xshop.md
-    linkText: Read
-  - title: Installation
-    details: How to install system
+    linkText: مطالعه
+  - title: نصب کردن
+    details: چگونه نصب کنیم؟
     link: /01-getting-started/02-installation.md
-    linkText: Read
-  - title: License
-    details: License & trust
+    linkText: مطالعه
+  - title: مجوز
+    details: مجوز و اعتماد
     link: /01-getting-started/03-license-and-trust.md
-    linkText: Read
+    linkText: مطالعه
 ---
 
-# Getting started
+# شروع کار
 
-Please choose a part to study:
+لطفا یک بخش را برای مطالعه انتخاب کنید:
 

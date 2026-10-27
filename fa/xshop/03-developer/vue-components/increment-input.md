@@ -3,7 +3,7 @@
 
 ![incerment.png](https://raw.githubusercontent.com/4xmen/xshop-docs/refs/heads/master/images/incerment.webp)
 
-## How to use
+## چگونگی استفاده
 
 ```vue
 <increment xname="name" xvalue="110"

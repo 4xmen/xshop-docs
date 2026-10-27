@@ -1,7 +1,8 @@
 # Tag input
 یک کامپوننت برای انتخاب تگ هست
 ![tag-input.png](https://raw.githubusercontent.com/4xmen/xshop-docs/refs/heads/master/images/tag-input.webp)
-## How to use:
+
+## چگونگی استفاده
 
 ```vue
  <tag-input xname="langs" splitter=",,"

@@ -5,7 +5,7 @@
 ![searchable-multi-select2.png](https://raw.githubusercontent.com/4xmen/xshop-docs/refs/heads/master/images/searchable-multi-select2.webp)
 ![searchable-multi-select.png](https://raw.githubusercontent.com/4xmen/xshop-docs/refs/heads/master/images/searchable-multi-select.webp)
 
-## How to use
+## چگونگی استفاده
 
 ```vue
 <searchable-multi-select

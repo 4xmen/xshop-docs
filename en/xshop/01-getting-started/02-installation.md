@@ -147,6 +147,45 @@ php artisan optimize
 
 Configure your web server so the site's document root points to the project's `public` directory.
 
+
+### 7. Nginx Security Configuration for Production
+
+If you are using Nginx, it is strongly recommended to add the following rules to the domain's server block after installation to prevent PHP execution in public/storage and public/upload.
+
+```text
+# Block PHP execution in public/storage
+location ~* ^/storage/.*\.(php[0-9]*|phtml|phar)$ {
+return 403;
+}
+
+# Block PHP execution in public/upload
+location ~* ^/upload/.*\.(php[0-9]*|phtml|phar)$ {
+return 403;
+}
+```
+
+
+After saving the changes, validate the configuration and reload Nginx:
+
+```bash
+sudo nginx -t && sudo systemctl reload nginx
+```
+
+
+### Add Cron Job
+
+Add a crontab entry for your project:
+
+```bash
+crontab -e
+```
+
+Add this line:
+
+```bash
+* * * * * cd /home/[yourusername]/[your-public-html-project-root] && php artisan schedule:run >> /dev/null 2>&1
+```
+
 ## Admin Login
 
 For installations populated with the seed data, the default login credentials listed in the project README are:
@@ -157,4 +196,6 @@ For installations populated with the seed data, the default login credentials li
 | Developer | `developer@example.com` | `password` |
 | Admin     | `admin@example.com`     | `password` |
 
-> Change the default password after logging in, especially if the application is accessible from the public internet.
+::: warning
+ Change the default password after logging in, especially if the application is accessible from the public internet.
+:::

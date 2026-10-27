@@ -4,7 +4,7 @@
 
 ![location-picker.png](https://raw.githubusercontent.com/4xmen/xshop-docs/refs/heads/master/images/location-picker.webp)
 
-## How to use
+## چگونگی استفاده
 
 ```vue
 <lat-lng xname="loc" :ilat="10.0" :ilng="10.0" :izoom="5"
