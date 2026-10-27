@@ -20,7 +20,7 @@ const sidebar = generateSidebar(
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
     title: "xShop v3",
-    base: '/xshop/',
+    base: '/xshop-docs/',
     description: "xShop consumer & developer document",
     themeConfig: {
         // https://vitepress.dev/reference/default-theme-config
