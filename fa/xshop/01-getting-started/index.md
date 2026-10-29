@@ -14,6 +14,10 @@ features:
     details: مجوز و اعتماد
     link: /01-getting-started/03-license-and-trust.md
     linkText: مطالعه
+  - title: به‌روزرسانی
+    details: راهنمای به‌روزرسانی پروژه
+    link: /01-getting-started/04-upgrade.md
+    linkText: مطالعه
 ---
 
 # شروع کار

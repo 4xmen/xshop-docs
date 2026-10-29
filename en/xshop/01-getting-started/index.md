@@ -14,6 +14,10 @@ features:
     details: License & trust
     link: /01-getting-started/03-license-and-trust.md
     linkText: Read
+  - title: Upgrade
+    details: Project Upgrade Guide
+    link: /01-getting-started/04-upgrade.md
+    linkText: Read
 ---
 
 # Getting started
