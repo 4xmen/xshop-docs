@@ -43,6 +43,8 @@
  *   in custom container, badges, etc.
  * -------------------------------------------------------------------------- */
 
+@import "vazirmatn/Vazirmatn-font-face.css";
+
 :root {
   --vp-c-default-1: var(--vp-c-gray-1);
   --vp-c-default-2: var(--vp-c-gray-2);
@@ -135,4 +137,14 @@
 
 code{
   direction: ltr ;
+}
+h1,h2,h3,h4,h5,h6,p,a,ul,ol,table{
+  font-family: Vazirmatn, sans-serif;
+}
+.task-list-container{
+  padding-right: 20px;
+  padding-left: 0;
+}
+.task-list-item-checkbox{
+  margin: 0 0.25rem -0.125rem 1.25rem !important;
 }
