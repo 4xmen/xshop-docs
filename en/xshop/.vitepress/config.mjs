@@ -35,6 +35,10 @@ export default defineConfig({
 
         socialLinks: [
             {icon: 'github', link: 'https://github.com/4xmen/xshop'}
-        ]
+        ],
+
+        search: {
+            provider: 'local'
+        }
     }
 })
