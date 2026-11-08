@@ -115,6 +115,7 @@ Attachments can be connected to sections such as:
 - Clips
 - Galleries
 - Creators
+- Pages
 
 After selecting the destination and saving the changes, the file will be associated with the selected entity.
 

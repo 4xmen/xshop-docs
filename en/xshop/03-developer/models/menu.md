@@ -24,6 +24,7 @@ List of models supported by this system as destinations that can be linked to me
 - `Category` — product category
 - `Clip` — video content
 - `Gallery` — image gallery
+- `Page` — pages gallery
 
 This list specifies the classes allowed to be linked to menu items. The variable name is preserved as it appears in the current code.
 

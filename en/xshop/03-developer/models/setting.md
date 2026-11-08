@@ -119,12 +119,13 @@ The `type` field determines the type of input each setting uses and how its valu
 
 These types are intended for cases where a setting requires multiple entities or values.
 
-| Type | Use |
-|---|---|
-| `CATEGORY_SET` | Selects multiple product categories |
-| `GROUP_SET` | Selects multiple post groups |
-| `CREATOR_SET` | Selects multiple creators or authors |
-| `SETS` | Selects multiple values from a set of options; similar to the `SET` concept in MySQL |
+| Type           | Use                                                                                  |
+|----------------|--------------------------------------------------------------------------------------|
+| `CATEGORY_SET` | Selects multiple product categories                                                  |
+| `GROUP_SET`    | Selects multiple post groups                                                         |
+| `CREATOR_SET`  | Selects multiple creators or authors                                                 |
+| `PAGE_SET`     | Selects multiple pages                                                               |
+| `SETS`         | Selects multiple values from a set of options; similar to the `SET` concept in MySQL |
 
 ### Query-based types
 
