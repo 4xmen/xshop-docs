@@ -27,6 +27,7 @@
 git pull 
 composer install --no-dev --optimize-autoloader
 php artisan migrate --force
+php artisan db:seed --class=UpgradeSeed
 php artisan optimize:clear
 php artisn client
 pnpm build
